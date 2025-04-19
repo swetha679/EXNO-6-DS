@@ -246,25 +246,7 @@ plt.title("violin  Plot of Total Bill by Day and Smoker Status")
 
 ![Screenshot 2025-04-19 113810](https://github.com/user-attachments/assets/55c8a25b-a412-4288-b90a-c99991f5d592)
 
-```
-sns.kdeplot(data=tips,x='total_bill',hue='time',multiple='fill',linewidth=3,palette='Set2',alpha=0.8)
-```
 
-
-![Screenshot 2025-04-19 113922](https://github.com/user-attachments/assets/76929783-3219-4dc7-b7a5-12c150b1ec3d)
-
-```
-sns.kdeplot(data=tips,x='total_bill',hue='time',multiple='layer',linewidth=3,palette='Set2',alpha=0.8)
-```
-
-![Screenshot 2025-04-19 114002](https://github.com/user-attachments/assets/1302701c-2d17-4ee6-b073-e58c4d9ad745)
-
-```
-sns.kdeplot(data=tips,x='total_bill',hue='time',multiple='stack',linewidth=3,palette='Set2',alpha=0.8)
-```
-
-
-![Screenshot 2025-04-19 114044](https://github.com/user-attachments/assets/f8d91974-34e8-4f14-850f-b27ceed5168e)
 
 ```
 import pandas as pd
